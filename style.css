@@ -1,0 +1,131 @@
+/* Montserrat font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-image: url("./images/bg.jpg");
+    height: 600px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.menu{
+    display: flex;
+    border: solid;
+    border-width: 0px 0px 02px ;
+    border-color: #fff;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.nav-items{
+    display: flex;    
+}
+
+.nav-item{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.contact-menu{
+    display: flex;
+}
+
+.phone-icon img{
+    height: 30px;
+}
+
+.menu-number{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.menu-number h5{
+    font-size: 14px;
+}
+
+.hero-section{
+    display: flex;
+    margin: 0px 50px;
+}
+
+.left-hero-section{
+    width: 50%;
+}
+
+.hero-title{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.hero-button{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.first-box{
+
+}
+
+.boxes{
+    padding: 30px 35px;
+    background-color: rgb(245, 245, 245, 0.3);
+}
+
+.boxes img{
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.boxes h3{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.first-box{
+    position: absolute;
+    margin-left: 300px;
+}
+
+.second-box{
+    position: absolute;
+    margin-top: 300px;
+}
+
+
+
+
